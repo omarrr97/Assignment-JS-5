@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(135deg, #00feba, #0DAFDC);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.logo{
+    display: flex;
+    align-items: start;
+    justify-content: left;
+}
+.logo h1{
+    color: #0AABDB;
+}
+.logo img{
+    width: 80px;
+    margin-right: 10px;
+}
+.search{
+    display: flex;
+}
+.search input{
+    width: 95%;
+    margin-right: 10px;
+}
+.search button{
+    width: 50px;
+}
+.search i{
+    font-size: 25px;
+}
+/* =========================== */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.weather{
+    color: #fff;
+    box-shadow: 0 0 7px #0DAFDC;
+    border-radius: 20px;
+}
+.mid .pohoto{
+    width: 150px;
+    padding-top: 10px;
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+    
+}
+.weather h2{
+    font-size: 44px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.footer img{
+    width: 40px;
+    margin-right: 10px;
+}
+.footer p{
+    margin: 0;
+}
+/* ============================== */
+
+.mid-2 .pohoto{
+    width: 150px;
+    padding-top: 20px;
+}
+.mid-2 p{
+    font-size: 25px;
+}
